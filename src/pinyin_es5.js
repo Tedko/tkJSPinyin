@@ -113,7 +113,7 @@ var Pinyin = (function () {
                 var strlen = str.length;
                 if (strlen == 1) {
                     for (var j = 0; j < result.length; j++) {
-                        result[k] += str;
+                        result[j] += str;
                     }
                 } else {
                     var swap1 = result.slice(0);
